@@ -70,7 +70,7 @@ def run_webcam_inference():
 #      # Set detection parameters
 
         score_thresh = 0.2   # Minimum threshold for object detection
-        max_detections = 20
+        max_detections = 100
 
       # All outputs are batches tensors.
       # Convert to numpy arrays, and take index [0] to remove the batch dimension.
